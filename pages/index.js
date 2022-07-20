@@ -137,11 +137,11 @@ export default function Home() {
       <div className="bg-zinc-100 p-10 flex flex-col space-y-5">
         <h3 className="text-zinc-700 flex justify-center font-semibold">©2022 Supreme Labs</h3>
         <div className="flex space-x-5 text-zinc-700 justify-center items-center">
-          <a href="/" className="underline text-zinc-700">Archive</a>
+          <Link href="/"><a className="underline text-zinc-700">Archive</a></Link>
           <div className="text-4xl">·</div>
-          <a href="/" className="underline text-zinc-700">Privacy policy</a>
+          <Link href="/"><a className="underline text-zinc-700">Privacy policy</a></Link>
           <div className="text-4xl">·</div>
-          <a href="/" className="underline text-zinc-700">Terms</a>
+          <Link href="/"><a className="underline text-zinc-700">Terms</a></Link>
         </div>
         <div className="flex justify-center">
           <button className="flex items-center justify-center space-x-2 border-2 hover:border-zinc-500 p-4 rounded-lg">
@@ -150,7 +150,7 @@ export default function Home() {
           </button>
         </div>
         <div className="flex justify-center">
-          <p className="text-zinc-800 font-semibold">Powered by <a href="/" className="underline">Hashnode</a> - a blogging community for software developers.</p>
+          <p className="text-zinc-800 font-semibold">Powered by <Link href="/"><a className="underline">Hashnode</a></Link> - a blogging community for software developers.</p>
         </div>
       </div>
     </div>
