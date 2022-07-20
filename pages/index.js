@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Home() {
   {
     //i am not using the <Image /> nor the <Link /> like I normally do in nextjs because this is a tutorial for html
