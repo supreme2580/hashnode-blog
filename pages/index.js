@@ -10,10 +10,50 @@ export default function Home() {
     <div className="flex flex-col text-white pb-10">
     <Head>
       <title>Victor Omorogbe - Hashnode</title>
-    <link rel="icon" href="/logo.png" />
+      <link rel="icon" href="/logo.png" />
     </Head>
       <div className="bg-white border-b-2 border-zinc-300 pb-4">
         <div className="bg-black px-5 pt-4 h-auto flex flex-col space-y-4">
+              <div className="w-full bg-black flex justify-between">
+                <div className="flex items-center space-x-2 sm:hidden">
+                  <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+                  <h1 className="text-white font-semibold text-xl uppercase">Menu</h1>
+                </div>
+                <div className="items-center space-x-2.5 hidden sm:flex">
+                  <img
+                    src="https://vstudio.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1658101136903%2Fg0HwoLyO7.jpeg%3Fw%3D400%26h%3D400%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=828&q=75"
+                    className="w-12 h-12 rounded-full hover:cursor-pointer"
+                  />
+                  <h1 className="text-2xl text-white font-semibold hover:cursor-pointer">Victor Omorogbe</h1>
+                </div>
+                <div className="flex items-center h-full sm:space-x-4">
+                  <div className="hover:bg-[rgba(194,194,194,0.2)] hover:cursor-pointer hover:rounded-full h-10 w-10 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  </div>
+                  <div className="hover:bg-[rgba(194,194,194,0.2)] hover:cursor-pointer hover:rounded-full h-10 w-10 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                  </div>
+                  <div className="hover:bg-[rgba(194,194,194,0.2)] hover:cursor-pointer hover:rounded-full h-10 w-10 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div className="hover:cursor-pointer">
+                    <img
+                      src="https://vstudio.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1658101136903%2Fg0HwoLyO7.jpeg%3Fw%3D400%26h%3D400%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=828&q=75"
+                      className="w-auto h-auto max-w-12 max-h-12 rounded-full"
+                    />
+                  </div>
+                </div>
+              </div>
               <div className="text-2xl font-semibold flex justify-center sm:hidden">Victor Omorogbe</div>
               <div className="flex space-x-5">
                 <div className="group hover:bg-[rgba(194,194,194,0.2)] px-3 pt-3 rounded-t-md hover:cursor-pointer">
