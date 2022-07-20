@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Head from "next/head"
 
 export default function Home() {
   {
@@ -7,6 +8,10 @@ export default function Home() {
   }
   return(
     <div className="flex flex-col text-white pb-10">
+    <Head>
+      <title>Victor Omorogbe - Hashnode</title>
+    <link rel="icon" href="/logo.png" />
+    </Head>
       <div className="bg-white border-b-2 border-zinc-300 pb-4">
         <div className="bg-black px-5 pt-4 h-auto flex flex-col space-y-4">
               <div className="w-full bg-black flex justify-between">
