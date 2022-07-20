@@ -14,8 +14,6 @@ export default function Home() {
     </Head>
       <div className="bg-white border-b-2 border-zinc-300 pb-4">
         <div className="bg-black px-5 pt-4 h-auto flex flex-col space-y-4">
-              https://vstudio.hashnode.dev/
-              </div>
               <div className="text-2xl font-semibold flex justify-center sm:hidden">Victor Omorogbe</div>
               <div className="flex space-x-5">
                 <div className="group hover:bg-[rgba(194,194,194,0.2)] px-3 pt-3 rounded-t-md hover:cursor-pointer">
